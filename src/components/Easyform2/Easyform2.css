@@ -1,0 +1,75 @@
+.boxenv{
+    background-color: #00D78B;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left: 90px;
+    margin-right:90px; 
+}
+.envelop{
+    background-color: #00D78B;
+}
+.contact3{  
+    padding-bottom: 24px;
+    box-shadow:0px 10px 0px 0px #00D78B inset;
+    border-radius:15px;
+    margin-top:30px;
+    background-color: white;
+}
+.body{
+    background-color: whitesmoke;
+   padding: 20px;
+}
+.navdropdown {
+    border:1px solid gray;
+    padding: 10px;
+    width: 90px;
+}
+.textarea3{
+    border: none;
+    border-bottom:1px solid gray;
+    width:1200px
+}
+.contact3{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.easyform2footer{   
+    border-bottom:1px solid black;
+    padding: 30px
+}
+.menu3 ul {  
+       width: 100%;
+    padding:2px;
+    margin-right: 30px;
+}
+.list1{
+    border:1px solid grey;
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 3px;
+}
+.list{
+    border:1px solid grey;
+    padding: 10px;
+    border-radius: 3px;
+}
+.menu3 ul li {
+    display:inline-block;
+    position:relative;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.select{
+    margin-top:20px;
+}
+.submit{
+    margin-left: 1100px;
+    margin-top:-70px;
+    width: 110px;
+}
+.save{
+    background-color: green;
+    margin-left: 750px;
+    width:80px;
+    margin-top:30px;
+}

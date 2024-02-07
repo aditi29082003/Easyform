@@ -1,0 +1,93 @@
+.envelopcol{
+    background-color: #00D78B;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left: 60px;
+    margin-right:60px;   
+}
+.part1{
+    background-color: whitesmoke;
+    padding: 80px;
+}
+.envelop{
+    width: 100%;
+}
+.travel{
+    margin-left:-650px
+}
+.request{
+    margin-right: 50px;
+}
+.Req{
+    margin-left: 620px;
+}
+.page4{
+    background-color: whitesmoke;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+.text{
+   margin-left: 30px;
+}
+.part2{
+   background-color: white;
+   margin-top: 40px;
+   border-radius: 10px;
+   padding: 20px;
+   margin-left:40px;
+   margin-right:40px
+}
+.createnew{
+    margin-left: 80px;
+    margin-top: 80px;
+    width:30%;
+}
+.card{
+    border-radius: 20px;    
+    padding:6px
+}
+
+.image{
+    height: 86%; 
+    margin-top: 36px; 
+}
+.recent{
+    margin-top:30px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+.image1{
+    height: 86%; 
+    margin-top: 32px;  
+}
+.carouselarrow{
+    margin-left: 90px;
+    outline:2px solid green;
+    border-radius: 200px;
+    color:black;
+    background-color: bisque;
+    font-weight: 500px;
+    padding: 10px;
+    margin-bottom: -11px;
+}
+.carouselarrow:hover{
+    background-color: #46DAA6;
+    color: black;
+}
+.arrowleft{
+    margin-left: 20px;
+    outline:2px solid green;
+    border-radius: 200px;
+    color:black;
+    background-color: bisque;
+    font-weight: 500px;
+    padding: 10px;
+    margin-top: -50px;
+}
+.arrowleft:hover{
+    background-color: #46DAA6;
+    color: black;
+}
+.header{
+    margin-top: 30px;
+}

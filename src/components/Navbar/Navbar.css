@@ -1,0 +1,48 @@
+.dropdown{
+    color:black;
+    margin-left:3px;
+}
+.Easyform{
+    margin-right:50px;
+    margin-left: 10px;
+    width: 12%;
+}
+.navbar{
+    background-color: white;
+}
+.mynav{
+    gap:15px;
+    margin-left: 20px;
+}
+.btn{
+    border:none;
+    background-color: #00D78B;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+}
+.btn:hover{
+    color:white;
+    font-weight: 100;
+    background-color:aqua
+}
+.login{
+    border:none;
+    margin-left:100px ;
+    background:transparent;
+    padding:10px;
+    color: black
+}
+.login:hover{
+    color:rgb(0, 0, 0);
+    background-color: #00D78B
+}
+ 
+ Link{
+    text-decoration: none;    
+ }
+ /* @media only screen and (min-width:768px){
+    .container{
+        width:200%;
+    }
+ } */

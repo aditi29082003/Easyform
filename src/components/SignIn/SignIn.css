@@ -1,0 +1,94 @@
+.user{
+    font-size: 32px;
+ }
+ .label {
+    display: block;
+    font-size: larger;
+    color: #000000;
+    padding: 5px;
+    text-align: left;
+}
+.label1{
+    display: block;
+    font-size: larger;
+    color: #000000;
+    padding: 5px;
+    text-align: left;
+    margin-left: 40px;
+}
+.email {
+    width:550px;
+    padding: 6px;
+    border-radius: 5px;
+    border:2px solid #00D78B;
+    outline:#00D78B;
+    margin-bottom: 5px;
+}
+.password {
+    width:550px;
+    padding: 6px;
+    border-radius: 5px;
+    border:2px solid #00D78B;
+    outline: #00D78B;
+}
+.confirmpassword {
+    width:550px;
+    padding: 6px;
+    border-radius: 5px;
+    border:2px solid #00D78B;
+    outline: #00D78B;
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+}
+.error {
+    display: block;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+.success {
+    display: block;
+    color: black;
+    height: 50px;
+}
+.form{
+    text-align: center;
+}
+.terms{
+    color:#00D78B;
+    font-size: medium;
+    
+}
+.frame{
+   margin-top: 120px;
+   margin-left: 50px;
+   
+}
+.whiteRectangle{
+    border-radius:200px;
+    background-color: white;
+    height:600px;
+    width:450px;    
+    margin:20px 0px 0px 80px;
+   
+}
+.forgot{
+    color: gray;
+    margin-left: 380px;
+}
+.conditions{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: medium;
+    color:gray;
+    font-weight: 150px;
+}
+.checkbox{
+    margin-left: 50px;
+    font-size: small;
+    margin-top: 20px;
+}

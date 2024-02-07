@@ -1,0 +1,182 @@
+.home{
+    background-color: whitesmoke;
+    padding-bottom: 80px;
+}
+.boyp3{
+    border: 1px solid rgba(11, 10, 10, 0.866) ;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 55px;
+    /* min-height: max-content; */
+    padding: 10px;
+}
+.Customers{
+   
+    text-align: center;
+    padding: 40px;
+}
+.footer3{
+    background-color: whitesmoke;
+    margin-top: 60px;
+}
+.Embed{
+    margin-left:100px;
+    margin-top: 159px;
+    margin-right: 169px;
+}
+.btn.getstarted{
+    background-color:aqua;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-color:aqua
+}
+.Ipsum{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.btn .getstarted:hover{
+    background-color: black;
+    color:white
+}
+.Lorem{
+    margin:180px 140px 0px 100px;
+}
+.smalltext{
+    font-size: small;
+    margin-top:20px;
+    margin-left: 100px;
+    margin:10px 70px 0px 100px;
+}
+.smalltext1{
+    font-size: small;
+    margin-top:90px;
+    margin-right: 90px;
+}
+.logoimg{
+    margin-top:80px;
+    margin-left: 140px;
+}
+.carousel{
+    background-color: whitesmoke;
+    padding:20px
+}
+.Arrowpart{
+    margin-left: 170px;
+    margin-right: 90px;
+    margin-top: 70px;
+
+}
+.carousel-control-prev-icon{
+    margin-left: -1200px;
+    background-color:#2defab;
+    margin-top:180px
+}
+.carousel-control-next-icon{
+    margin-left: -2300px;
+    background-color:#46DAA6;
+    margin-top:179px;
+}
+.Mailchimp{
+    background-color: #46DAA6;
+     height: 200px;
+    width:240px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.Canva{
+    background-color:White;
+   height: 200px;
+   margin-top: 40px;
+   border-radius: 10px;
+   padding: 20px;
+    width:240px;
+    margin-left:40px
+}
+.Works{
+    margin-top:80px
+}
+.boxes{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.Product{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left:30px;
+    padding: 16px;
+}
+.manimage{
+    border:1px solid black;
+    padding:30px;
+    border-radius: 70px;
+    margin-left: 130px;
+    width: 500px;
+}
+.WhyEasyforms{
+    margin-top: 60px;
+    margin-left: 30px;
+    color:#1a032c;
+    font-weight: 0;
+}
+.ninetyfive{
+    margin-left: 80px;
+    margin-top: -45px;
+    font-size:14px;
+}
+.footer{
+ background-color: #1a032c; 
+ padding: 20px; 
+ margin-top: 40px; 
+}
+.footerbox1{
+    font-size: 13px;
+    color: white;
+    padding:5px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.footerbox2{
+    color: white;
+    margin-left: 90px;
+    font-size: small;
+}
+.footerbox3{
+    color:white;
+    font-size: small;
+}
+.Copyright{
+    margin-left: 60px;
+}
+.groupicon{
+    margin-left: 790px;
+}
+.call{
+    margin-right: 8px;
+}
+.footer1{
+    border-top:1px solid purple;
+    background-color: #1a032c; 
+    color: white;
+    padding:20px;
+    font-size: small;
+}
+.icons{
+    margin-left: 10px;
+}
+.fa-arrow-right{
+    color: #2defab;
+    font-weight: 30px;
+    margin-right:7px
+}
+@media only screen and(max-width:682px){
+  .home{
+    min-width:100% !important;
+  }
+}
+
