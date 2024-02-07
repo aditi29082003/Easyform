@@ -40,7 +40,7 @@ function App() {
             <Easyform2/> 
             <Easyformstep1/>
             <Sendscreen/>         
-           <ContactResponseList/>
+           {/* <ContactResponseList/> */}
            </>        
     )
 }
