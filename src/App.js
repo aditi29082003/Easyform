@@ -1,4 +1,3 @@
-import './App.css';
 import Home from "./components/Home/Home";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +9,7 @@ import SignUp from "./components/SignUp/SignUp"
 import Easyform2 from "./components/Easyform2/Easyform2";
 import Easyformstep1 from "./components/Easyformstep1/Easyformstep1"
 import Sendscreen from "./components/SendScreen/Sendscreen";
-import ContactResponseList from "./components/ContactResponselist/ContactResponseList"
+import ContactResponseList from "./components/ContactResponselist/ContactResponseList";
 function App() {
     let routeElements = useRoutes([
         {
