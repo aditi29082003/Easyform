@@ -31,21 +31,21 @@ function ContactResponseList() {
             <Image src={envelope} alt="./" className="envelop" />
           </Col>
         </Row>
-        <Row className="contact3">
-          {/* <h5>Contact Response</h5> */}
+        <Row  className="contact3">
           <Col md={3}>
-            <Row style={{ border: "1px solid grey" }}>
+            <Row className='responseContact'>
               <h5>Contact Response</h5>
-              <p>Response</p>
+              <div className ="colresponse" style={{ border: "1px solid grey",borderRadius:"5px" }}>
+              <p >Response</p>
               <p><input type="checkbox"></input>Request</p>
               <p><input type="checkbox"></input>Received</p>
               <p className='setting'>Setting</p>
-              <br/><p>logout</p>
-              
+              <br/><p>logout</p>              
+              </div>
             </Row>
           </Col>
-          <Col x-sm={11} style={{ border: "1px solid grey", marginTop: "20px", padding: "20px" }}>
-            <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
+          <Col   x-sm={11} style={{ border: "1px solid grey", marginTop: "66px", padding: "40px" }}>
+            <Row style={{ border: "1px solid grey", marginTop: "10px"}}>
               <Col><h6>Request Contact information</h6></Col>
               <Col>Date</Col>
               <Col>Time</Col>
