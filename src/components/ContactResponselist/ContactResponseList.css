@@ -1,12 +1,15 @@
 .data1{
     border: 5px solid grey;
     outline: 2px solid grey;
-    padding: 30px
+    padding: 10px
 }
 .setting{
-    margin-top: 350px;
+    margin-top: 400px
 }
 .responseContact{
   padding: 30px;
      
+}
+.pagination{
+  margin-left: 340px;
 }

@@ -40,56 +40,56 @@ function ContactResponseList() {
               <p><input type="checkbox"></input>Request</p>
               <p><input type="checkbox"></input>Received</p>
               <p className='setting'>Setting</p>
-              <br/><p>logout</p>              
+              <p>logout</p>              
               </div>
             </Row>
           </Col>
-          <Col   x-sm={11} style={{ border: "1px solid grey", marginTop: "66px", padding: "40px" }}>
-            <Row style={{ border: "1px solid grey", marginTop: "10px"}}>
+          <Col x-sm={11} style={{ border: "1px solid grey", marginTop: "60px", padding: "30px",marginRight:"30px" }}>
+            <Row style={{ border: "1px solid grey", marginTop: "5px"}}>
               <Col><h6>Request Contact information</h6></Col>
               <Col>Date</Col>
               <Col>Time</Col>
               <Col>View</Col>
             </Row>
             <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+              <Col><b>1.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
             <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+              <Col><b>2.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
             <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+              <Col><b>3.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
             <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+              <Col><b>4.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
             <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+              <Col><b>5.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
-            <Row style={{ border: "1px solid grey", marginTop: "10px" }}>
-              <Col><b>Contact information </b><br />Name:Suman Saha</Col>
+            <Row style={{ border: "1px solid grey", marginTop: "10px"}}>
+              <Col><b>6.Contact information </b><br />Name:Suman Saha</Col>
               <Col><br />04 Aug,2023</Col>
               <Col><br />4:15PM</Col>
               <Col>i</Col>
             </Row>
             <Row>
-              <Col x-sm={10}>Showing 1 to 6 260 entries</Col>
-              <Col x-sm={2}>
+              <Col x-sm={10}>Showing 1 to 260 entries</Col>
+              <Col x-sm={2}className='pagination'>
                 <Pagination>                 
                   <Pagination.Item active>{1}</Pagination.Item>              
                   <Pagination.Item>{2}</Pagination.Item>
