@@ -8,6 +8,10 @@
 .envelop{
     background-color: #00D78B;
 }
+.navbar{
+    margin-left: 160px;
+    gap:50px
+}
 .contact3{  
     padding-bottom: 24px;
     box-shadow:0px 10px 0px 0px #00D78B inset;

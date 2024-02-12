@@ -2,10 +2,12 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 import "../Easyform2/Easyform2.css";
 import envelope from "../../assets/envelope.png";
 import { Image } from 'react-bootstrap';
-// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from "react-bootstrap";
+import request from "../../assets/request.png";
+import response from "../../assets/response.png";
+import Manas from "../../assets/Manas.png";
 
 const easyform2 = () => {
   return (
@@ -15,18 +17,15 @@ const easyform2 = () => {
           <h4>Logo</h4>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto navbar">
               <Nav.Link href="#home">Request</Nav.Link>
               <Nav.Link href="#link">Response</Nav.Link>
               <Nav.Link href="#link">Setting</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Col xs="auto">
-            <Button type="submit">Login</Button>
-          </Col>
-          <Col xs="auto">
-            <Button type="submit">SignUp</Button>
-          </Col>
+          <img src={request} className="Request" alt="./"></img>
+          <img src={response} className="response" alt="./"></img>
+          <Image src={Manas} alt="./"></Image>
         </Container>
       </Navbar>
       <Container fluid className="body">
@@ -70,8 +69,8 @@ const easyform2 = () => {
           </Col>
         </Row>
         <Row className=" contact3">
-        <Col x-sm className=" easyform2footer menu3">
-          <h5>Untitled Question</h5>
+          <Col x-sm className=" easyform2footer menu3">
+            <h5>Untitled Question</h5>
             <ul>
               <li className="list1">Add text field</li>
               <li className="list">Paragraph</li>
@@ -80,26 +79,26 @@ const easyform2 = () => {
               <li className="list">Dropdown</li>
               <li className="list">Date</li>
               <li className="list">Time</li>
-                </ul>
-                <input type="text" placeholder="Question"></input><br/>                
-                <label htmlFor="select" className="select">Select input type: </label>
-                <NavDropdown title="Grey" id="basic-nav-dropdown" className="navdropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Button className="submit">save</Button>
-              </Col>
-             </Row>
-             <Button className="save">save</Button>
+            </ul>
+            <input type="text" placeholder="Question"></input><br />
+            <label htmlFor="select" className="select">Select input type: </label>
+            <NavDropdown title="Grey" id="basic-nav-dropdown" className="navdropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Button className="submit">save</Button>
+          </Col>
+        </Row>
+        <Button className="save">save</Button>
       </Container>
-      
+
     </>
   )
 }

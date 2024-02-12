@@ -5,7 +5,12 @@ import { Image } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from "react-bootstrap";
-import "./Sendscreen.css"
+import "./Sendscreen.css";
+import request from "../../assets/request.png";
+import response from "../../assets/response.png";
+import Manas from '../../assets/Manas.png';
+
+
 const Sendscreen = () => {
   return (
     <>
@@ -14,18 +19,15 @@ const Sendscreen = () => {
           <h4>Logo</h4>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto navbar">
               <Nav.Link href="#home">Request</Nav.Link>
               <Nav.Link href="#link">Response</Nav.Link>
               <Nav.Link href="#link">Setting</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Col xs="auto">
-            <Button type="submit">Login</Button>
-          </Col>
-          <Col xs="auto">
-            <Button type="submit">SignUp</Button>
-          </Col>
+          <img src={request} className="Request" alt="./"></img>
+                    <img src={response} className="response" alt="./"></img>
+                    <Image src={Manas} alt="./"></Image>
         </Container>
       </Navbar>
       <Container fluid className="body">

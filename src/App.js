@@ -10,6 +10,7 @@ import Easyform2 from "./components/Easyform2/Easyform2";
 import Easyformstep1 from "./components/Easyformstep1/Easyformstep1"
 import Sendscreen from "./components/SendScreen/Sendscreen";
 import ContactResponseList from "./components/ContactResponselist/ContactResponseList";
+import ContactResponseList1 from "./components/ContactResponseList1/ContactResponseList1";
 function App() {
     let routeElements = useRoutes([
         {
@@ -31,7 +32,6 @@ function App() {
             ]
         }
      ])
-     
     return (
             <>   
             <Navbar/>         
@@ -40,6 +40,8 @@ function App() {
             <Easyformstep1/>
             <Sendscreen/>         
            <ContactResponseList/>
+           <ContactResponseList1/>
+           {routeElements}
            </>        
     )
 }
