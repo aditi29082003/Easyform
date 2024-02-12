@@ -36,11 +36,11 @@ function ContactResponseList() {
             <Row className='responseContact'>
               <h5>Contact Response</h5>
               <div className ="colresponse" style={{ border: "1px solid grey",borderRadius:"5px" }}>
-              <p >Response</p>
+              <p><i class="fa-solid fa-arrows-rotate"></i>Response</p>
               <p><input type="checkbox"></input>Request</p>
               <p><input type="checkbox"></input>Received</p>
-              <p className='setting'>Setting</p>
-              <p>logout</p>              
+              <p className='setting'><i class="fa-solid fa-gear"></i>Setting</p>
+              <p><i class="fa-solid fa-right-from-bracket"></i>logout</p>              
               </div>
             </Row>
           </Col>
